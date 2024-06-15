@@ -1,8 +1,8 @@
 name: GitHub actions nodejs
 
 on:
-  push:
-    branches: ["main"]
+  pull_request:
+    types: [opened, synchronize]
 
   workflow_dispatch:
 
