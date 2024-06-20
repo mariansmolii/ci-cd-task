@@ -32,8 +32,6 @@ const db = new sqlite3.Database("softserve.db", (err) => {
     console.error(err.message);
   }
   console.log("Connected to  database.");
-
-  console.log("Hello!!!");
 });
 
 // CREATE
